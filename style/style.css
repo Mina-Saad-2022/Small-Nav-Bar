@@ -1,0 +1,28 @@
+body{
+	perspective: 600px;
+}
+.mina {
+  width: 165px;
+  height: 255px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  color: #fff;
+  line-height: 255px;
+  text-align: center;
+  font-size: 25px;
+  font-weight: bolder;
+}
+.Product-1 img {
+  width: 165px;
+  height: 255px;
+  margin-bottom: 8px;
+  border-radius: 25%;
+ 
+transition: all 2s;}
+.Product-1 img:hover{
+	/* transform-origin: center center;  */
+	transform: translate3d(-50px,0,-50px) rotate(-30deg);
+	box-shadow: 15px 15px 15px #2c3e50;
+	animation: all mina 2s ;
+
+}
